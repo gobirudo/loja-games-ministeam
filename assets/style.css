@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; background: #1b2838; color: #c7d5e0; margin: 0; padding: 20px; }
+.wrap { max-width: 920px; margin: auto; }
+h1 { color: #66c0f4; border-bottom: 1px solid #2a475e; padding-bottom: 10px; }
+.toolbar { margin-bottom: 18px; display: flex; gap: 10px; }
+.alert { background: #2a475e; border-left: 4px solid #a4d007; padding: 12px; margin-bottom: 20px; color: #fff; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+.card { background: #16202d; border: 1px solid #2a475e; padding: 15px; border-radius: 6px; }
+.badge { background: #4c6b22; color: #a4d007; padding: 3px 7px; font-weight: bold; border-radius: 3px; font-size: 12px; }
+.old { text-decoration: line-through; color: #8f98a0; font-size: 13px; }
+.price { font-size: 20px; color: #fff; font-weight: bold; margin: 8px 0; }
+input, button { width: 100%; box-sizing: border-box; padding: 8px; margin-top: 6px; border-radius: 4px; border: none; }
+input { background: #2a475e; color: #fff; }
+button { background: #5c7e10; color: #fff; font-weight: bold; cursor: pointer; }
+button.filter-btn { width: auto; background: #2a475e; color: #66c0f4; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; background: #16202d; }
+th, td { padding: 10px; border-bottom: 1px solid #2a475e; text-align: left; }
+.bf-banner { background: #b8860b; color: #111; font-weight: bold; padding: 10px; border-radius: 4px; margin-bottom: 15px; text-align: center; }
