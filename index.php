@@ -28,7 +28,8 @@ $orders = $pdo->query("SELECT o.id, o.player_name, g.title, o.paid_price, o.crea
 </head>
 <body>
 <div class="wrap">
-  <h1>MINI-STEAM // LOJA DE GAMES</h1>
+  <h1>MINI-STEAM // BLACK FRIDAY WEEK (-50% OFF)</h1>
+  <div class="bf-banner">PROMOÇÃO RELÂMPAGO ATIVA: Descontos especiais aplicados no catálogo!</div>
   <?php if ($msg): ?><div class="alert"><?= htmlspecialchars($msg) ?></div><?php endif; ?>
 
   <div class="toolbar">
